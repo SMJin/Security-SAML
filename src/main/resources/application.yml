@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: sso
+#  security:
+#    saml2:
+#      relyingparty:
+#        registration:
+#          spring-saml-sp:
+#            identityprovider:
+#              metadata-location: classpath:/saml/idp-metadata.xml # metadata.xml ??
+#            assertion-consumer-service-location: http://localhost:8080/login/saml2/sso/spring-saml-sp # Assertion (SAML Response) ?? ?? (ACS URL)
